@@ -1,0 +1,60 @@
+Welcome to MyApp Terminal Help!
+
+Below is a list of available commands and their descriptions:
+
+1. start - Launches the application in interactive mode.
+Usage: start
+
+2. stop - Gracefully shuts down the application.
+Usage: stop
+
+3. restart - Restarts the application, reloading all configurations.
+Usage: restart
+
+4. status - Displays the current status of the application, including uptime and performance metrics.
+Usage: status
+
+5. config - Opens the configuration settings for the application.
+Usage: config [options]
+Options:
+  --edit : Enters the configuration edit mode.
+  --view : Displays the current configuration settings.
+
+6. help - Displays this help list, providing information about all available commands.
+Usage: help
+
+7. version - Shows the current version of the application.
+Usage: version
+
+8. log - Displays application logs.
+Usage: log [options]
+Options:
+  --recent : Shows only the most recent logs.
+  --error : Filters logs to show error messages only.
+
+9. update - Checks for updates and applies them.
+Usage: update
+
+10. connect - Connects to a remote server.
+Usage: connect <server_address>
+Example: connect example.com
+
+11. disconnect - Disconnects from the currently connected server.
+Usage: disconnect
+
+12. ping - Tests connectivity with a specified IP address or domain.
+Usage: ping <address>
+Example: ping example.com
+
+13. encrypt - Encrypts a specified file or message.
+Usage: encrypt <file_path/message>
+Example: encrypt secret.txt
+
+14. decrypt - Decrypts a specified file or message.
+Usage: decrypt <file_path/message>
+Example: decrypt encrypted_secret.txt
+
+For more information on a specific command, type 'help <command>'.
+Example: help start
+
+Thank you for using MyApp!

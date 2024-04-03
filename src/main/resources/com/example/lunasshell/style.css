@@ -1,0 +1,37 @@
+.root {
+    -fx-background-color: black;
+
+}
+.terminal-output{
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 15;
+}
+
+
+ .content{
+    -fx-font-size: 100px;
+    -fx-font-family: 'Monospaced', monospace;
+    -fx-padding: 0;
+    -fx-background-color: black;
+    -fx-text-fill: white;
+     -fx-focus-color: transparent;
+     -fx-faint-focus-color: transparent;
+
+
+}
+
+.custom-vbox {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.user-input{
+    -fx-background-color: black;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+}
+
